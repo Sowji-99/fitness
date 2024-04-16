@@ -32,6 +32,7 @@
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.7);
     }
     .video img {
       width: 100%;
@@ -47,6 +48,17 @@
       font-size: 14px;
       color: #FFFFFF;
     }
+
+    .video a {
+      text-decoration: none; /* Remove underline from links */
+      color: inherit; /* Inherit text color from parent (.video) */
+      transition: color 0.3s ease;
+    }
+
+    .video p:hover {
+      color: #4058e3; /* Change color on hover */
+    }
+    
   </style>
 </head>
 <body>
